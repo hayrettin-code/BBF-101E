@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+    <head>
+        <title>My Web Page</title>
+        <link rel="stylesheet" type="text/css" href="13_11_2025.css" />
+                
+    </head>
+    <body onload="document.body.style.backgroundColor='pink'"
+          onresize="document.body.style.backgroundColor='lightblue'"
+          onkeydown="document.body.style.backgroundColor='white'"
+          onkeyup="document.body.style.backgroundColor='lightyellow'">
+    <button type="button" id="myButton" onclick="pressedTheButton()">Change Colors!</button>
+
+        <script>
+            let currentValue = 0 ;
+            function pressedTheButton(){
+                
+                currentValue = currentValue + 1;
+                if(currentValue > 4){
+                    currentValue = 1;
+                }
+                if(currentValue == 1){
+                    myButton.style.backgroundColor = 'red' ;
+                }else if(currentValue == 2){
+                    myButton.style.backgroundColor = 'blue' ;
+                }else if(currentValue == 3){
+                    myButton.style.backgroundColor = 'green' ;
+                }else if(currentValue == 4){
+                    myButton.style.backgroundColor = 'gray' ;
+                }
+                  
+            }
+           
+
+            function welcomeFunction() {
+                alert("Welcome!");
+            }
+            function keydownFunction() {
+                document.getElementById("name").style.backgroundColor="lightblue";
+            }
+          </script>
+
+          Enter your name: <input type="text" id="name" onkeydown="keydownFunction()">
+
+        <p class="centered">
+
+            <em>
+            Hayrettin Yazıcı
+            <br>
+            150240310
+            </em>
+            
+           
+        </p>
+
+        
+
+        <p class="center-icon">
+
+        <a href="https://github.com/itu-itis25-yazicih24"><img src="github_icon.png"></a>
+        </p>
+
+        <h4>Courses that I am taking</h4>
+
+        <ol>
+            <li><strong>BBF 101E - Introduction to Information Systems</strong></li>
+            <li>BBF 102E - Linear Algebra and Applications</li>
+            <li>YZV 103E - Introduction to AI & Data Engineering & Ethics</li>
+            <li>MAT 104E - Mathematics II</li>
+            <li>FIZ 101EL - Physics I Laboratory</li>
+            <li>TUR 122 - Türk Dili II</li>
+            <li>ING 112A - Basics of Academic Writing</li>
+        </ol>
+       
+        <p>The Universe of Bees</p>
+        
+        <ul>
+            <li>Apis Mellifera</li>
+            <li>Agapostemon</li>
+            <li>Halictus</li>
+            <li>Colletes</li>
+            <li>Apidae</li>
+            <ul>
+                <li>Bombus</li>
+             </ul>
+         </ul>
+         <h1 onmouseover="style.color='orange'; style.backgroundColor='lightgreen'"
+             onmouseout="style.color='red' ; style.backgroundColor=''"><strong>Bees</strong></h1>
+         <p><img src="bees.jpg"></p>
+         <p><a href="https://en.wikipedia.org/wiki/Bee">Click here for more information</a></p>
+    
+        <table>
+            <tr>
+                <th>Family</th>
+                <th>Genus</th>
+            </tr>
+            <tr>
+                <td>Apidae</td>
+                <td>Apis</td>
+            </tr>
+            <tr>
+                <td>Halictidae</td>
+                <td>Agapostemon</td>
+            </tr>
+            <tr>
+                <td>Halictidae</td>
+                <td>Halictus</td>
+            </tr>
+            <tr>
+                <td>Colletidae</td>
+                <td>Colletes</td>
+            </tr>
+            <tr>
+                <td>Apidae</td>
+                <td>Bombus</td>
+            </tr>
+        </table>
+
+        <pre>
+                            Are you a beekeeper?
+
+            This web page is right for you! I hope you enjoy it.                
+        </pre>
+    
+    
+    
+    </body>
+
+</html>
