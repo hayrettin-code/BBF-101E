@@ -1,0 +1,59 @@
+        LDA 50        
+        STO 90
+        LDA 58
+        STO 50
+        LDA 51
+        STO 91
+        LDA 57
+        STO 51
+        LDA 52
+        STO 92
+        LDA 56
+        STO 52
+        LDA 53
+        STO 93
+        LDA 55
+        STO 53
+        LDA 90
+        STO 58
+        LDA 91
+        STO 57
+        LDA 92
+        STO 56
+        LDA 93
+        STO 55
+        LDA 50
+        OUT
+        LDA 51
+        OUT
+        LDA 52
+        OUT
+        LDA 53
+        OUT
+        LDA 54
+        OUT
+        LDA 55
+        OUT
+        LDA 56
+        OUT
+        LDA 57
+        OUT 
+        LDA 58
+        OUT
+        HLT
+        NOP
+        NOP
+        NOP
+        NOP
+        NOP
+        NOP
+        NOP
+        DAT 001
+        DAT 005
+        DAT 000
+        DAT 002
+        DAT 004
+        DAT 000
+        DAT 003
+        DAT 001
+        DAT 000
