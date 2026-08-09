@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="solar_system.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.68862935"
+     inkscape:cx="576.50752"
+     inkscape:cy="413.13952"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="875.65248"
+       y="742.05376"
+       width="162.64192"
+       height="29.0432"
+       id="rect1" />
+    <rect
+       x="85.67744"
+       y="111.81632"
+       width="5.80864"
+       height="33.39968"
+       id="rect3" />
+    <rect
+       x="75.51232"
+       y="101.6512"
+       width="2.90432"
+       height="34.85184"
+       id="rect2" />
+    <filter
+       inkscape:label="Raised Border"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Strongly raised border around a flat surface"
+       height="1.2776206"
+       width="1.2776206"
+       y="-0.13881032"
+       x="-0.13881032"
+       style="color-interpolation-filters:sRGB"
+       id="filter12">
+      <feGaussianBlur
+         stdDeviation="4"
+         result="result1"
+         id="feGaussianBlur6" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite7" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur7" />
+      <feComposite
+         operator="xor"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite8" />
+      <feComposite
+         operator="atop"
+         result="fbSourceGraphic"
+         in="result4"
+         in2="result8"
+         id="feComposite9" />
+      <feSpecularLighting
+         specularExponent="10"
+         specularConstant="1.29999995"
+         surfaceScale="3"
+         lighting-color="#ffffff"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting9">
+        <feDistantLight
+           azimuth="235"
+           elevation="55"
+           id="feDistantLight9" />
+      </feSpecularLighting>
+      <feComposite
+         operator="atop"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite10" />
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite11"
+         k1="0"
+         k4="0" />
+      <feComposite
+         operator="over"
+         in="result4"
+         in2="SourceGraphic"
+         id="feComposite12" />
+      <feBlend
+         mode="multiply"
+         in2="result2"
+         id="feBlend12" />
+    </filter>
+    <filter
+       inkscape:label="Swirl"
+       inkscape:menu="Distort"
+       inkscape:menu-tooltip="Paint objects with a transparent turbulence which wraps around color edges"
+       height="1.4570584"
+       y="-0.22852921"
+       width="1.4570584"
+       x="-0.22852921"
+       style="color-interpolation-filters:sRGB"
+       id="filter6">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result10"
+         id="feGaussianBlur3" />
+      <feBlend
+         in2="result10"
+         mode="normal"
+         in="result10"
+         result="fbSourceGraphic"
+         id="feBlend3" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         in="fbSourceGraphic"
+         id="feGaussianBlur4" />
+      <feTurbulence
+         seed="0"
+         result="result7"
+         type="fractalNoise"
+         numOctaves="1"
+         baseFrequency="0.2"
+         id="feTurbulence4" />
+      <feComposite
+         in2="result8"
+         result="result6"
+         operator="in"
+         in="result8"
+         id="feComposite4" />
+      <feDisplacementMap
+         in2="result6"
+         in="result7"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="50"
+         result="result4"
+         id="feDisplacementMap4" />
+      <feComposite
+         in2="result4"
+         result="result2"
+         operator="arithmetic"
+         in="result8"
+         k1="1"
+         k3="1"
+         id="feComposite5"
+         k2="0"
+         k4="0" />
+      <feComposite
+         in2="result2"
+         result="fbSourceGraphic"
+         in="fbSourceGraphic"
+         operator="in"
+         id="feComposite6" />
+      <feDisplacementMap
+         in2="result4"
+         yChannelSelector="G"
+         scale="50"
+         xChannelSelector="R"
+         id="feDisplacementMap6" />
+    </filter>
+    <filter
+       inkscape:label="Raised Border"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Strongly raised border around a flat surface"
+       height="1.2776206"
+       width="1.2776206"
+       y="-0.13881032"
+       x="-0.13881032"
+       style="color-interpolation-filters:sRGB"
+       id="filter12-4">
+      <feGaussianBlur
+         stdDeviation="4"
+         result="result1"
+         id="feGaussianBlur6-5" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite7-5" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur7-1" />
+      <feComposite
+         operator="xor"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite8-7" />
+      <feComposite
+         operator="atop"
+         result="fbSourceGraphic"
+         in="result4"
+         in2="result8"
+         id="feComposite9-1" />
+      <feSpecularLighting
+         specularExponent="10"
+         specularConstant="1.29999995"
+         surfaceScale="3"
+         lighting-color="#ffffff"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting9-1">
+        <feDistantLight
+           azimuth="235"
+           elevation="55"
+           id="feDistantLight9-5" />
+      </feSpecularLighting>
+      <feComposite
+         operator="atop"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite10-2" />
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite11-7"
+         k1="0"
+         k4="0" />
+      <feComposite
+         operator="over"
+         in="result4"
+         in2="SourceGraphic"
+         id="feComposite12-6" />
+      <feBlend
+         mode="multiply"
+         in2="result2"
+         id="feBlend12-1" />
+    </filter>
+    <filter
+       inkscape:label="Swirl"
+       inkscape:menu="Distort"
+       inkscape:menu-tooltip="Paint objects with a transparent turbulence which wraps around color edges"
+       height="1.4570584"
+       y="-0.22852921"
+       width="1.4570584"
+       x="-0.22852921"
+       style="color-interpolation-filters:sRGB"
+       id="filter6-4">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result10"
+         id="feGaussianBlur3-2" />
+      <feBlend
+         in2="result10"
+         mode="normal"
+         in="result10"
+         result="fbSourceGraphic"
+         id="feBlend3-3" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         in="fbSourceGraphic"
+         id="feGaussianBlur4-2" />
+      <feTurbulence
+         seed="0"
+         result="result7"
+         type="fractalNoise"
+         numOctaves="1"
+         baseFrequency="0.2"
+         id="feTurbulence4-2" />
+      <feComposite
+         in2="result8"
+         result="result6"
+         operator="in"
+         in="result8"
+         id="feComposite4-1" />
+      <feDisplacementMap
+         in2="result6"
+         in="result7"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="50"
+         result="result4"
+         id="feDisplacementMap4-6" />
+      <feComposite
+         in2="result4"
+         result="result2"
+         operator="arithmetic"
+         in="result8"
+         k1="1"
+         k3="1"
+         id="feComposite5-8"
+         k2="0"
+         k4="0" />
+      <feComposite
+         in2="result2"
+         result="fbSourceGraphic"
+         in="fbSourceGraphic"
+         operator="in"
+         id="feComposite6-5" />
+      <feDisplacementMap
+         in2="result4"
+         yChannelSelector="G"
+         scale="50"
+         xChannelSelector="R"
+         id="feDisplacementMap6-7" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Katman 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583"
+       id="path1"
+       sodipodi:cx="71.080208"
+       sodipodi:cy="70.695992"
+       sodipodi:expansion="1.2"
+       sodipodi:revolution="7"
+       sodipodi:radius="57.591602"
+       sodipodi:argument="-18.302271"
+       sodipodi:t0="0.23999999"
+       d="m 72.194581,60.365996 c 6.281543,-0.03602 11.14073,5.524205 11.086693,11.646215 -0.0646,7.318565 -6.569345,12.94882 -13.724443,12.80515 C 61.176214,84.649083 54.7554,77.174313 54.993894,68.960642 55.268738,59.495068 63.736458,52.266068 73.031945,52.603817 83.60361,52.987935 91.656934,62.469497 91.216067,72.868196 90.72014,84.565595 80.205503,93.45816 68.683738,92.910749 55.842238,92.300635 46.096541,80.735072 46.753577,68.071698 47.480111,54.068837 60.113281,43.456994 73.935673,44.226451 89.116188,45.07151 100.60644,58.787961 99.721993,73.785793 98.75642,90.159403 83.941892,102.53965 67.753068,101.53785 50.171683,100.44988 36.89043,84.523251 38.011783,67.128656 39.223941,48.325495 56.276012,34.132748 74.890467,35.375718 94.92879,36.713767 110.04305,54.904004 108.67653,74.751785 107.21096,96.038101 87.870387,112.08347 66.776377,110.59157 44.229744,108.99693 27.24406,88.494345 28.863065,66.141716 30.588267,42.322906 52.264078,24.388047 75.887245,26.135801 100.98967,27.992997 119.88224,50.852832 118.00417,75.758027 116.0136,102.1551 91.959329,122.01362 65.761016,120.00374 38.058617,117.87848 17.226178,92.619708 19.369294,65.117552 21.630538,36.099489 48.103539,14.285423 76.919918,16.563153 c 30.343752,2.398458 53.146922,30.095116 50.733252,60.235783 -0.67083,8.377054 -3.21791,16.57395 -7.39316,23.866044"
+       transform="matrix(2.5309829,0,0,-1.889985,-37.585608,234.0327)" />
+    <g
+       id="g2-8"
+       transform="translate(120.30907,83.256996)">
+      <g
+         id="g2"
+         transform="translate(-4.0833242,-4.1916673)">
+        <circle
+           style="fill:#ff6600;stroke-width:0.264583"
+           id="path2-2"
+           cx="32.274254"
+           cy="25.934669"
+           r="15" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.46667px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+           x="24.111441"
+           y="29.004251"
+           id="text2-4"><tspan
+             sodipodi:role="line"
+             id="tspan2-5"
+             style="font-size:8.46667px;fill:#000000;stroke-width:0.264583"
+             x="24.111441"
+             y="29.004251">Sun</tspan></text>
+      </g>
+      <g
+         id="g3"
+         transform="translate(97.97542,54.174644)">
+        <circle
+           style="fill:#554400;stroke-width:0.0881943"
+           id="path2-2-3"
+           cx="-100.27963"
+           cy="-58.605949"
+           r="5" />
+        <text
+           xml:space="preserve"
+           style="font-size:2.11667px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+           x="-104.6246"
+           y="-58.049393"
+           id="text2-4-1"><tspan
+             sodipodi:role="line"
+             id="tspan2-5-2"
+             style="font-size:2.11667px;fill:#000000;stroke-width:0.264583"
+             x="-104.6246"
+             y="-58.049393">Mercury</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-120.30907,-83.256996)"
+         id="text2"
+         style="font-size:8px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52778px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:10.6826;display:inline;fill:#000000;stroke-width:0.132291"
+         x="-102.94798"
+         y="-55.045628"
+         id="text2-4-7"><tspan
+           x="-102.94798"
+           y="-55.045628"
+           id="tspan6"><tspan
+             dx="0 2.2393136 2.1015096 2.2324233 2.2324233 1.8379593"
+             id="tspan5">Venusn</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-120.30907,-83.256996)"
+         id="text3"
+         style="font-size:13.3333px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#554400" />
+    </g>
+    <g
+       id="g4"
+       transform="translate(70.311773,114.49677)">
+      <circle
+         style="fill:#806600;stroke-width:0.132291"
+         id="path2-2-0"
+         cx="25.857313"
+         cy="16.716728"
+         r="7.5" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52778px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+         x="20.585455"
+         y="17.972466"
+         id="text2-4-2"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-48"
+           style="font-size:3.52778px;fill:#000000;stroke-width:0.264583"
+           x="20.585455"
+           y="17.972466">Venus</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(142.54464,145.23415)">
+      <circle
+         style="fill:#008080;stroke-width:0.176389"
+         id="path2-2-06"
+         cx="22.370901"
+         cy="19.076267"
+         r="10" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+         x="16.660656"
+         y="20.652397"
+         id="text2-4-13"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-8"
+           style="font-size:4.23333px;fill:#000000;stroke-width:0.264583"
+           x="16.660656"
+           y="20.652397">Earth</tspan></text>
+    </g>
+    <g
+       id="g6"
+       transform="translate(214.00905,139.4709)">
+      <circle
+         style="fill:#aa0000;stroke-width:0.0440973"
+         id="path2-2-066"
+         cx="20.917118"
+         cy="13.315659"
+         r="2.5" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.41111px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+         x="19.190092"
+         y="13.817953"
+         id="text2-4-18"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-49"
+           style="font-size:1.41111px;fill:#000000;stroke-width:0.264583"
+           x="19.190092"
+           y="13.817953">Mars</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="font-size:5.33333px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+       x="215.16171"
+       y="199.79301"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0.264583"
+         x="215.16171"
+         y="199.79301">Hayrettin Yazıcı</tspan></text>
+    <g
+       id="g12"
+       transform="matrix(0.51581991,0,0.08949789,0.43658778,188.20067,3.5784986)">
+      <path
+         sodipodi:type="star"
+         style="fill:#ff6600;stroke-width:0.264583;filter:url(#filter12-4)"
+         id="path2"
+         inkscape:flatsided="false"
+         sodipodi:sides="4"
+         sodipodi:cx="91.443726"
+         sodipodi:cy="134.86028"
+         sodipodi:r1="69.398842"
+         sodipodi:r2="17.34971"
+         sodipodi:arg1="0.72664234"
+         sodipodi:arg2="1.5120405"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 143.31307,180.96636 92.462536,152.18005 45.337645,186.72962 74.123954,135.87909 39.574384,88.754194 90.424915,117.5405 137.54981,82.990934 108.7635,133.84147 Z"
+         transform="matrix(1.3472946,0.0779002,-0.0779002,1.3472946,-13.111263,-66.566459)" />
+      <path
+         sodipodi:type="star"
+         style="fill:#ff0000;stroke-width:0.264583;filter:url(#filter6-4)"
+         id="path1-8"
+         inkscape:flatsided="false"
+         sodipodi:sides="4"
+         sodipodi:cx="64.932732"
+         sodipodi:cy="79.917206"
+         sodipodi:r1="37.102345"
+         sodipodi:r2="9.2755861"
+         sodipodi:arg1="0.55640393"
+         sodipodi:arg2="1.3418021"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 96.438551,99.512289 67.038272,88.950655 45.337649,111.42303 55.899283,82.022746 33.426912,60.322123 62.827191,70.883757 84.527815,48.411386 73.96618,77.811665 Z"
+         transform="matrix(1.4062408,0.28976496,-0.2334835,1.4026096,26.933021,-8.6543243)" />
+    </g>
+  </g>
+</svg>
