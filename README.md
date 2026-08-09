@@ -1,6 +1,3 @@
-# BBF-101E
-Practices and assignments from the Introduction to Information Systems class.
-
 # 🚀 BBF-101E: Introduction to Information Systems
 
 This repository contains my term projects and programming assignments for the **Introduction to Information Systems** course at Istanbul Technical University. 
