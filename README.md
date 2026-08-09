@@ -7,12 +7,12 @@ This collection showcases my progression from foundational web development to lo
 
 ### 🌐 Web Development & Interactivity
 * **[Website Fundamentals](Website-Fundamentals/)**: An interactive landing page featuring DOM manipulation, keyboard event listeners, and dynamic CSS styling.
-* **[Basic Form](basic-form/)**: A web form practice project focusing on custom client-side validation logic for student data.
-* **[Job Application](job-application/)**: A modular, enterprise-style job application form with complex validation algorithms for TCKN, salary, and experience data.
-* **[Reverse Text Game](reverse-game/)**: A time-based browser game utilizing string manipulation, countdown timers, and progressive difficulty levels.
+* **[Basic Form](Basic-Form/)**: A web form practice project focusing on custom client-side validation logic for student data.
+* **[Job Application](Job-Application/)**: A modular, enterprise-style job application form with complex validation algorithms for TCKN, salary, and experience data.
+* **[Reverse Text Game](Reverse-Game/)**: A time-based browser game utilizing string manipulation, countdown timers, and progressive difficulty levels.
 
 ### 💻 Low-Level Programming
-* **[VVM Assembly](vvm-assembly/)**: A hardware simulation project that implements a number-reversal algorithm using the VVM (Visible Virtual Machine) instruction set.
+* **[VVM Assembly](Visible-Virtual-Machine/)**: A hardware simulation project that implements a number-reversal algorithm using the VVM (Visible Virtual Machine) instruction set.
 
 ## 🛠️ Technical Skills
 Throughout these projects, I have developed expertise in:
