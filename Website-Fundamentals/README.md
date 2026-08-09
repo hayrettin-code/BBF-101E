@@ -4,7 +4,7 @@ This folder contains a foundational front-end web development project completed 
 
 ## 🔗 Live Demo
 You can view the live deployed version of this project here: 
-**[👉 Click here to view the live website]([https://github.com/itu-itis25-yazicih24](https://itu-itis.github.io/introduction-to-information-systems-2025-itu-itis25-yazicih24/))**
+**[👉 Click here to view the live website](https://itu-itis.github.io/introduction-to-information-systems-2025-itu-itis25-yazicih24/)**
 
 ## 📝 About the Project
 This project demonstrates the core building blocks of modern web design. It is a single-page interactive application that showcases HTML structuring, external CSS styling, and JavaScript-based DOM manipulation. 
